@@ -7,29 +7,68 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		13198C8D26D9903A00D9085C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13198C8C26D9903A00D9085C /* AppDelegate.swift */; };
-		13198C8F26D9903A00D9085C /* DocumentBrowserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13198C8E26D9903A00D9085C /* DocumentBrowserViewController.swift */; };
-		13198C9126D9903A00D9085C /* DocumentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13198C9026D9903A00D9085C /* DocumentViewController.swift */; };
-		13198C9326D9903A00D9085C /* Document.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13198C9226D9903A00D9085C /* Document.swift */; };
-		13198C9626D9903A00D9085C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13198C9426D9903A00D9085C /* Main.storyboard */; };
-		13198C9826D9903F00D9085C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13198C9726D9903F00D9085C /* Assets.xcassets */; };
-		13198C9B26D9903F00D9085C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13198C9926D9903F00D9085C /* LaunchScreen.storyboard */; };
+		138C9D0D26D9979000BFA093 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 138C9D0C26D9979000BFA093 /* AppDelegate.swift */; };
+		138C9D0F26D9979000BFA093 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 138C9D0E26D9979000BFA093 /* SceneDelegate.swift */; };
+		138C9D1126D9979000BFA093 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 138C9D1026D9979000BFA093 /* ViewController.swift */; };
+		138C9D1426D9979000BFA093 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 138C9D1226D9979000BFA093 /* Main.storyboard */; };
+		138C9D1726D9979000BFA093 /* django.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 138C9D1526D9979000BFA093 /* django.xcdatamodeld */; };
+		138C9D1926D9979400BFA093 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 138C9D1826D9979400BFA093 /* Assets.xcassets */; };
+		138C9D1C26D9979400BFA093 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 138C9D1A26D9979400BFA093 /* LaunchScreen.storyboard */; };
+		138C9D2726D9979400BFA093 /* djangoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 138C9D2626D9979400BFA093 /* djangoTests.swift */; };
+		138C9D3226D9979400BFA093 /* djangoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 138C9D3126D9979400BFA093 /* djangoUITests.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		138C9D2326D9979400BFA093 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 138C9D0126D9979000BFA093 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 138C9D0826D9979000BFA093;
+			remoteInfo = django;
+		};
+		138C9D2E26D9979400BFA093 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 138C9D0126D9979000BFA093 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 138C9D0826D9979000BFA093;
+			remoteInfo = django;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
-		13198C8926D9903A00D9085C /* django.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = django.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		13198C8C26D9903A00D9085C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		13198C8E26D9903A00D9085C /* DocumentBrowserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentBrowserViewController.swift; sourceTree = "<group>"; };
-		13198C9026D9903A00D9085C /* DocumentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentViewController.swift; sourceTree = "<group>"; };
-		13198C9226D9903A00D9085C /* Document.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Document.swift; sourceTree = "<group>"; };
-		13198C9526D9903A00D9085C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		13198C9726D9903F00D9085C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		13198C9A26D9903F00D9085C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		13198C9C26D9903F00D9085C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		138C9D0926D9979000BFA093 /* django.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = django.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		138C9D0C26D9979000BFA093 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		138C9D0E26D9979000BFA093 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		138C9D1026D9979000BFA093 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		138C9D1326D9979000BFA093 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		138C9D1626D9979000BFA093 /* django.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = django.xcdatamodel; sourceTree = "<group>"; };
+		138C9D1826D9979400BFA093 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		138C9D1B26D9979400BFA093 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		138C9D1D26D9979400BFA093 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		138C9D2226D9979400BFA093 /* djangoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = djangoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		138C9D2626D9979400BFA093 /* djangoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = djangoTests.swift; sourceTree = "<group>"; };
+		138C9D2826D9979400BFA093 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		138C9D2D26D9979400BFA093 /* djangoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = djangoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		138C9D3126D9979400BFA093 /* djangoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = djangoUITests.swift; sourceTree = "<group>"; };
+		138C9D3326D9979400BFA093 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		13198C8626D9903A00D9085C /* Frameworks */ = {
+		138C9D0626D9979000BFA093 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		138C9D1F26D9979400BFA093 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		138C9D2A26D9979400BFA093 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -39,47 +78,69 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		13198C8026D9903A00D9085C = {
+		138C9D0026D9979000BFA093 = {
 			isa = PBXGroup;
 			children = (
-				13198C8B26D9903A00D9085C /* django */,
-				13198C8A26D9903A00D9085C /* Products */,
+				138C9D0B26D9979000BFA093 /* django */,
+				138C9D2526D9979400BFA093 /* djangoTests */,
+				138C9D3026D9979400BFA093 /* djangoUITests */,
+				138C9D0A26D9979000BFA093 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		13198C8A26D9903A00D9085C /* Products */ = {
+		138C9D0A26D9979000BFA093 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				13198C8926D9903A00D9085C /* django.app */,
+				138C9D0926D9979000BFA093 /* django.app */,
+				138C9D2226D9979400BFA093 /* djangoTests.xctest */,
+				138C9D2D26D9979400BFA093 /* djangoUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		13198C8B26D9903A00D9085C /* django */ = {
+		138C9D0B26D9979000BFA093 /* django */ = {
 			isa = PBXGroup;
 			children = (
-				13198C8C26D9903A00D9085C /* AppDelegate.swift */,
-				13198C8E26D9903A00D9085C /* DocumentBrowserViewController.swift */,
-				13198C9026D9903A00D9085C /* DocumentViewController.swift */,
-				13198C9226D9903A00D9085C /* Document.swift */,
-				13198C9426D9903A00D9085C /* Main.storyboard */,
-				13198C9726D9903F00D9085C /* Assets.xcassets */,
-				13198C9926D9903F00D9085C /* LaunchScreen.storyboard */,
-				13198C9C26D9903F00D9085C /* Info.plist */,
+				138C9D0C26D9979000BFA093 /* AppDelegate.swift */,
+				138C9D0E26D9979000BFA093 /* SceneDelegate.swift */,
+				138C9D1026D9979000BFA093 /* ViewController.swift */,
+				138C9D1226D9979000BFA093 /* Main.storyboard */,
+				138C9D1826D9979400BFA093 /* Assets.xcassets */,
+				138C9D1A26D9979400BFA093 /* LaunchScreen.storyboard */,
+				138C9D1D26D9979400BFA093 /* Info.plist */,
+				138C9D1526D9979000BFA093 /* django.xcdatamodeld */,
 			);
 			path = django;
+			sourceTree = "<group>";
+		};
+		138C9D2526D9979400BFA093 /* djangoTests */ = {
+			isa = PBXGroup;
+			children = (
+				138C9D2626D9979400BFA093 /* djangoTests.swift */,
+				138C9D2826D9979400BFA093 /* Info.plist */,
+			);
+			path = djangoTests;
+			sourceTree = "<group>";
+		};
+		138C9D3026D9979400BFA093 /* djangoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				138C9D3126D9979400BFA093 /* djangoUITests.swift */,
+				138C9D3326D9979400BFA093 /* Info.plist */,
+			);
+			path = djangoUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		13198C8826D9903A00D9085C /* django */ = {
+		138C9D0826D9979000BFA093 /* django */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 13198C9F26D9903F00D9085C /* Build configuration list for PBXNativeTarget "django" */;
+			buildConfigurationList = 138C9D3626D9979400BFA093 /* Build configuration list for PBXNativeTarget "django" */;
 			buildPhases = (
-				13198C8526D9903A00D9085C /* Sources */,
-				13198C8626D9903A00D9085C /* Frameworks */,
-				13198C8726D9903A00D9085C /* Resources */,
+				138C9D0526D9979000BFA093 /* Sources */,
+				138C9D0626D9979000BFA093 /* Frameworks */,
+				138C9D0726D9979000BFA093 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -87,24 +148,68 @@
 			);
 			name = django;
 			productName = django;
-			productReference = 13198C8926D9903A00D9085C /* django.app */;
+			productReference = 138C9D0926D9979000BFA093 /* django.app */;
 			productType = "com.apple.product-type.application";
+		};
+		138C9D2126D9979400BFA093 /* djangoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 138C9D3926D9979400BFA093 /* Build configuration list for PBXNativeTarget "djangoTests" */;
+			buildPhases = (
+				138C9D1E26D9979400BFA093 /* Sources */,
+				138C9D1F26D9979400BFA093 /* Frameworks */,
+				138C9D2026D9979400BFA093 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				138C9D2426D9979400BFA093 /* PBXTargetDependency */,
+			);
+			name = djangoTests;
+			productName = djangoTests;
+			productReference = 138C9D2226D9979400BFA093 /* djangoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		138C9D2C26D9979400BFA093 /* djangoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 138C9D3C26D9979400BFA093 /* Build configuration list for PBXNativeTarget "djangoUITests" */;
+			buildPhases = (
+				138C9D2926D9979400BFA093 /* Sources */,
+				138C9D2A26D9979400BFA093 /* Frameworks */,
+				138C9D2B26D9979400BFA093 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				138C9D2F26D9979400BFA093 /* PBXTargetDependency */,
+			);
+			name = djangoUITests;
+			productName = djangoUITests;
+			productReference = 138C9D2D26D9979400BFA093 /* djangoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		13198C8126D9903A00D9085C /* Project object */ = {
+		138C9D0126D9979000BFA093 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1250;
 				LastUpgradeCheck = 1250;
 				TargetAttributes = {
-					13198C8826D9903A00D9085C = {
+					138C9D0826D9979000BFA093 = {
 						CreatedOnToolsVersion = 12.5.1;
+					};
+					138C9D2126D9979400BFA093 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 138C9D0826D9979000BFA093;
+					};
+					138C9D2C26D9979400BFA093 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 138C9D0826D9979000BFA093;
 					};
 				};
 			};
-			buildConfigurationList = 13198C8426D9903A00D9085C /* Build configuration list for PBXProject "django" */;
+			buildConfigurationList = 138C9D0426D9979000BFA093 /* Build configuration list for PBXProject "django" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -112,56 +217,101 @@
 				en,
 				Base,
 			);
-			mainGroup = 13198C8026D9903A00D9085C;
-			productRefGroup = 13198C8A26D9903A00D9085C /* Products */;
+			mainGroup = 138C9D0026D9979000BFA093;
+			productRefGroup = 138C9D0A26D9979000BFA093 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				13198C8826D9903A00D9085C /* django */,
+				138C9D0826D9979000BFA093 /* django */,
+				138C9D2126D9979400BFA093 /* djangoTests */,
+				138C9D2C26D9979400BFA093 /* djangoUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		13198C8726D9903A00D9085C /* Resources */ = {
+		138C9D0726D9979000BFA093 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				13198C9B26D9903F00D9085C /* LaunchScreen.storyboard in Resources */,
-				13198C9826D9903F00D9085C /* Assets.xcassets in Resources */,
-				13198C9626D9903A00D9085C /* Main.storyboard in Resources */,
+				138C9D1C26D9979400BFA093 /* LaunchScreen.storyboard in Resources */,
+				138C9D1926D9979400BFA093 /* Assets.xcassets in Resources */,
+				138C9D1426D9979000BFA093 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		138C9D2026D9979400BFA093 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		138C9D2B26D9979400BFA093 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		13198C8526D9903A00D9085C /* Sources */ = {
+		138C9D0526D9979000BFA093 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				13198C9326D9903A00D9085C /* Document.swift in Sources */,
-				13198C9126D9903A00D9085C /* DocumentViewController.swift in Sources */,
-				13198C8F26D9903A00D9085C /* DocumentBrowserViewController.swift in Sources */,
-				13198C8D26D9903A00D9085C /* AppDelegate.swift in Sources */,
+				138C9D1126D9979000BFA093 /* ViewController.swift in Sources */,
+				138C9D0D26D9979000BFA093 /* AppDelegate.swift in Sources */,
+				138C9D1726D9979000BFA093 /* django.xcdatamodeld in Sources */,
+				138C9D0F26D9979000BFA093 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		138C9D1E26D9979400BFA093 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				138C9D2726D9979400BFA093 /* djangoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		138C9D2926D9979400BFA093 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				138C9D3226D9979400BFA093 /* djangoUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		138C9D2426D9979400BFA093 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 138C9D0826D9979000BFA093 /* django */;
+			targetProxy = 138C9D2326D9979400BFA093 /* PBXContainerItemProxy */;
+		};
+		138C9D2F26D9979400BFA093 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 138C9D0826D9979000BFA093 /* django */;
+			targetProxy = 138C9D2E26D9979400BFA093 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin PBXVariantGroup section */
-		13198C9426D9903A00D9085C /* Main.storyboard */ = {
+		138C9D1226D9979000BFA093 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				13198C9526D9903A00D9085C /* Base */,
+				138C9D1326D9979000BFA093 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		13198C9926D9903F00D9085C /* LaunchScreen.storyboard */ = {
+		138C9D1A26D9979400BFA093 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				13198C9A26D9903F00D9085C /* Base */,
+				138C9D1B26D9979400BFA093 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -169,7 +319,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		13198C9D26D9903F00D9085C /* Debug */ = {
+		138C9D3426D9979400BFA093 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -230,7 +380,7 @@
 			};
 			name = Debug;
 		};
-		13198C9E26D9903F00D9085C /* Release */ = {
+		138C9D3526D9979400BFA093 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -285,12 +435,13 @@
 			};
 			name = Release;
 		};
-		13198CA026D9903F00D9085C /* Debug */ = {
+		138C9D3726D9979400BFA093 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DN4778SBB3;
 				INFOPLIST_FILE = django/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -303,12 +454,13 @@
 			};
 			name = Debug;
 		};
-		13198CA126D9903F00D9085C /* Release */ = {
+		138C9D3826D9979400BFA093 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DN4778SBB3;
 				INFOPLIST_FILE = django/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -321,28 +473,143 @@
 			};
 			name = Release;
 		};
+		138C9D3A26D9979400BFA093 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DN4778SBB3;
+				INFOPLIST_FILE = djangoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = nouvellie.djangoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/django.app/django";
+			};
+			name = Debug;
+		};
+		138C9D3B26D9979400BFA093 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DN4778SBB3;
+				INFOPLIST_FILE = djangoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = nouvellie.djangoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/django.app/django";
+			};
+			name = Release;
+		};
+		138C9D3D26D9979400BFA093 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DN4778SBB3;
+				INFOPLIST_FILE = djangoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = nouvellie.djangoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = django;
+			};
+			name = Debug;
+		};
+		138C9D3E26D9979400BFA093 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DN4778SBB3;
+				INFOPLIST_FILE = djangoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = nouvellie.djangoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = django;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		13198C8426D9903A00D9085C /* Build configuration list for PBXProject "django" */ = {
+		138C9D0426D9979000BFA093 /* Build configuration list for PBXProject "django" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				13198C9D26D9903F00D9085C /* Debug */,
-				13198C9E26D9903F00D9085C /* Release */,
+				138C9D3426D9979400BFA093 /* Debug */,
+				138C9D3526D9979400BFA093 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		13198C9F26D9903F00D9085C /* Build configuration list for PBXNativeTarget "django" */ = {
+		138C9D3626D9979400BFA093 /* Build configuration list for PBXNativeTarget "django" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				13198CA026D9903F00D9085C /* Debug */,
-				13198CA126D9903F00D9085C /* Release */,
+				138C9D3726D9979400BFA093 /* Debug */,
+				138C9D3826D9979400BFA093 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		138C9D3926D9979400BFA093 /* Build configuration list for PBXNativeTarget "djangoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				138C9D3A26D9979400BFA093 /* Debug */,
+				138C9D3B26D9979400BFA093 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		138C9D3C26D9979400BFA093 /* Build configuration list for PBXNativeTarget "djangoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				138C9D3D26D9979400BFA093 /* Debug */,
+				138C9D3E26D9979400BFA093 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		138C9D1526D9979000BFA093 /* django.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				138C9D1626D9979000BFA093 /* django.xcdatamodel */,
+			);
+			currentVersion = 138C9D1626D9979000BFA093 /* django.xcdatamodel */;
+			path = django.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
-	rootObject = 13198C8126D9903A00D9085C /* Project object */;
+	rootObject = 138C9D0126D9979000BFA093 /* Project object */;
 }
