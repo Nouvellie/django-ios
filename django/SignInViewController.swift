@@ -67,6 +67,7 @@ class SignInViewController: UIViewController {
                 if response.response?.statusCode == 200 {
                     print("TODO Home redirect.")
                     nouveUserDefaults?.set(apiResult["token"].string, forKey: "nouveToken")
+                    nouveUserDefaults?.set(true, forKey: "nouveConnected")
                     self.signInHomeViewRedirect()
                 }
                 else if response.response?.statusCode == 401 {

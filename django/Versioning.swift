@@ -21,3 +21,10 @@ let nouveLogs = [
     "Home redirect after signin.",
     "BG and BTN colors ready.",
 ]
+
+
+/* Active UserDefaults.
+
+nouveToken: string
+nouveConnected: bool
+*/
