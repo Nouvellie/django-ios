@@ -16,6 +16,10 @@
 		138C9D1C26D9979400BFA093 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 138C9D1A26D9979400BFA093 /* LaunchScreen.storyboard */; };
 		138C9D2726D9979400BFA093 /* djangoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 138C9D2626D9979400BFA093 /* djangoTests.swift */; };
 		138C9D3226D9979400BFA093 /* djangoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 138C9D3126D9979400BFA093 /* djangoUITests.swift */; };
+		138C9D4026D9F6E200BFA093 /* GlobalStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 138C9D3F26D9F6E200BFA093 /* GlobalStruct.swift */; };
+		138C9D4226D9F6FF00BFA093 /* Versioning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 138C9D4126D9F6FF00BFA093 /* Versioning.swift */; };
+		138C9D4926D9FAA900BFA093 /* VersionBackup in Resources */ = {isa = PBXBuildFile; fileRef = 138C9D4826D9FAA900BFA093 /* VersionBackup */; };
+		138C9D4F26DA003200BFA093 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 138C9D4E26DA003200BFA093 /* SignInViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,10 @@
 		138C9D2D26D9979400BFA093 /* djangoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = djangoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		138C9D3126D9979400BFA093 /* djangoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = djangoUITests.swift; sourceTree = "<group>"; };
 		138C9D3326D9979400BFA093 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		138C9D3F26D9F6E200BFA093 /* GlobalStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalStruct.swift; sourceTree = "<group>"; };
+		138C9D4126D9F6FF00BFA093 /* Versioning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Versioning.swift; sourceTree = "<group>"; };
+		138C9D4826D9FAA900BFA093 /* VersionBackup */ = {isa = PBXFileReference; lastKnownFileType = folder; path = VersionBackup; sourceTree = "<group>"; };
+		138C9D4E26DA003200BFA093 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +109,7 @@
 		138C9D0B26D9979000BFA093 /* django */ = {
 			isa = PBXGroup;
 			children = (
+				138C9D4826D9FAA900BFA093 /* VersionBackup */,
 				138C9D0C26D9979000BFA093 /* AppDelegate.swift */,
 				138C9D0E26D9979000BFA093 /* SceneDelegate.swift */,
 				138C9D1026D9979000BFA093 /* ViewController.swift */,
@@ -109,6 +118,9 @@
 				138C9D1A26D9979400BFA093 /* LaunchScreen.storyboard */,
 				138C9D1D26D9979400BFA093 /* Info.plist */,
 				138C9D1526D9979000BFA093 /* django.xcdatamodeld */,
+				138C9D3F26D9F6E200BFA093 /* GlobalStruct.swift */,
+				138C9D4126D9F6FF00BFA093 /* Versioning.swift */,
+				138C9D4E26DA003200BFA093 /* SignInViewController.swift */,
 			);
 			path = django;
 			sourceTree = "<group>";
@@ -235,6 +247,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				138C9D1C26D9979400BFA093 /* LaunchScreen.storyboard in Resources */,
+				138C9D4926D9FAA900BFA093 /* VersionBackup in Resources */,
 				138C9D1926D9979400BFA093 /* Assets.xcassets in Resources */,
 				138C9D1426D9979000BFA093 /* Main.storyboard in Resources */,
 			);
@@ -261,9 +274,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				138C9D4F26DA003200BFA093 /* SignInViewController.swift in Sources */,
 				138C9D1126D9979000BFA093 /* ViewController.swift in Sources */,
 				138C9D0D26D9979000BFA093 /* AppDelegate.swift in Sources */,
+				138C9D4226D9F6FF00BFA093 /* Versioning.swift in Sources */,
 				138C9D1726D9979000BFA093 /* django.xcdatamodeld in Sources */,
+				138C9D4026D9F6E200BFA093 /* GlobalStruct.swift in Sources */,
 				138C9D0F26D9979000BFA093 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -447,6 +463,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 0.1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = nouvellie.django;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -466,6 +483,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 0.1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = nouvellie.django;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
