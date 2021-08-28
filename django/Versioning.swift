@@ -19,4 +19,5 @@ let nouveLogs = [
     "Token saved on nouveToken UserDefaults.",
     "HomeView created.",
     "Home redirect after signin.",
+    "BG and BTN colors ready.",
 ]
