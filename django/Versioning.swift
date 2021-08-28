@@ -8,5 +8,6 @@ let nouveLicence = "MIT Licence"
 let nouveVersion = "0.1.0"
 let nouveLogs = [
     "0.1.0",
-    "App creation"
+    "App creation",
+    "SignIn created"
 ]
