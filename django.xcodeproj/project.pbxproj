@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -20,6 +20,9 @@
 		138C9D4226D9F6FF00BFA093 /* Versioning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 138C9D4126D9F6FF00BFA093 /* Versioning.swift */; };
 		138C9D4926D9FAA900BFA093 /* VersionBackup in Resources */ = {isa = PBXBuildFile; fileRef = 138C9D4826D9FAA900BFA093 /* VersionBackup */; };
 		138C9D4F26DA003200BFA093 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 138C9D4E26DA003200BFA093 /* SignInViewController.swift */; };
+		25962869F1E4BA0B2D44EE2C /* Pods_django.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EFBCCF640BFC2AF3304DAB5 /* Pods_django.framework */; };
+		7BE9E15449C0C282C4C09F08 /* Pods_djangoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F56E8E00E0DCBC48A3B2B55 /* Pods_djangoTests.framework */; };
+		7E49BD18B824D4DCE9E9BE02 /* Pods_django_djangoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA91969C2F5BE80840CCE73F /* Pods_django_djangoUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +43,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0F56E8E00E0DCBC48A3B2B55 /* Pods_djangoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_djangoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		138C9D0926D9979000BFA093 /* django.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = django.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		138C9D0C26D9979000BFA093 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		138C9D0E26D9979000BFA093 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -59,6 +63,15 @@
 		138C9D4126D9F6FF00BFA093 /* Versioning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Versioning.swift; sourceTree = "<group>"; };
 		138C9D4826D9FAA900BFA093 /* VersionBackup */ = {isa = PBXFileReference; lastKnownFileType = folder; path = VersionBackup; sourceTree = "<group>"; };
 		138C9D4E26DA003200BFA093 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		138C9D5326DA3E6200BFA093 /* django.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = django.entitlements; sourceTree = "<group>"; };
+		150078466832A1F89F7B60CD /* Pods-django-djangoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-django-djangoUITests.debug.xcconfig"; path = "Target Support Files/Pods-django-djangoUITests/Pods-django-djangoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		1EFBCCF640BFC2AF3304DAB5 /* Pods_django.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_django.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BC866400611C79F5E88B4D8 /* Pods-django-djangoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-django-djangoUITests.release.xcconfig"; path = "Target Support Files/Pods-django-djangoUITests/Pods-django-djangoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		9DB7400927B5957E704BF2C1 /* Pods-djangoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-djangoTests.release.xcconfig"; path = "Target Support Files/Pods-djangoTests/Pods-djangoTests.release.xcconfig"; sourceTree = "<group>"; };
+		AA91969C2F5BE80840CCE73F /* Pods_django_djangoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_django_djangoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCC600D5BBC9D8E38C99A375 /* Pods-djangoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-djangoTests.debug.xcconfig"; path = "Target Support Files/Pods-djangoTests/Pods-djangoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		DF833FBDD62B07DC4A68DE0F /* Pods-django.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-django.debug.xcconfig"; path = "Target Support Files/Pods-django/Pods-django.debug.xcconfig"; sourceTree = "<group>"; };
+		EF0BB5A35895D308286EB436 /* Pods-django.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-django.release.xcconfig"; path = "Target Support Files/Pods-django/Pods-django.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +79,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				25962869F1E4BA0B2D44EE2C /* Pods_django.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -73,6 +87,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7BE9E15449C0C282C4C09F08 /* Pods_djangoTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,6 +95,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E49BD18B824D4DCE9E9BE02 /* Pods_django_djangoUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -93,6 +109,8 @@
 				138C9D2526D9979400BFA093 /* djangoTests */,
 				138C9D3026D9979400BFA093 /* djangoUITests */,
 				138C9D0A26D9979000BFA093 /* Products */,
+				B65E65CC28E724E597A75B10 /* Pods */,
+				C17C21C8286EB2EE277C6D5C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -109,6 +127,7 @@
 		138C9D0B26D9979000BFA093 /* django */ = {
 			isa = PBXGroup;
 			children = (
+				138C9D5326DA3E6200BFA093 /* django.entitlements */,
 				138C9D4826D9FAA900BFA093 /* VersionBackup */,
 				138C9D0C26D9979000BFA093 /* AppDelegate.swift */,
 				138C9D0E26D9979000BFA093 /* SceneDelegate.swift */,
@@ -119,8 +138,8 @@
 				138C9D1D26D9979400BFA093 /* Info.plist */,
 				138C9D1526D9979000BFA093 /* django.xcdatamodeld */,
 				138C9D3F26D9F6E200BFA093 /* GlobalStruct.swift */,
-				138C9D4126D9F6FF00BFA093 /* Versioning.swift */,
 				138C9D4E26DA003200BFA093 /* SignInViewController.swift */,
+				138C9D4126D9F6FF00BFA093 /* Versioning.swift */,
 			);
 			path = django;
 			sourceTree = "<group>";
@@ -143,6 +162,29 @@
 			path = djangoUITests;
 			sourceTree = "<group>";
 		};
+		B65E65CC28E724E597A75B10 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DF833FBDD62B07DC4A68DE0F /* Pods-django.debug.xcconfig */,
+				EF0BB5A35895D308286EB436 /* Pods-django.release.xcconfig */,
+				150078466832A1F89F7B60CD /* Pods-django-djangoUITests.debug.xcconfig */,
+				3BC866400611C79F5E88B4D8 /* Pods-django-djangoUITests.release.xcconfig */,
+				DCC600D5BBC9D8E38C99A375 /* Pods-djangoTests.debug.xcconfig */,
+				9DB7400927B5957E704BF2C1 /* Pods-djangoTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C17C21C8286EB2EE277C6D5C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1EFBCCF640BFC2AF3304DAB5 /* Pods_django.framework */,
+				AA91969C2F5BE80840CCE73F /* Pods_django_djangoUITests.framework */,
+				0F56E8E00E0DCBC48A3B2B55 /* Pods_djangoTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -150,9 +192,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 138C9D3626D9979400BFA093 /* Build configuration list for PBXNativeTarget "django" */;
 			buildPhases = (
+				1853C84BBC71AEB2099CD41D /* [CP] Check Pods Manifest.lock */,
 				138C9D0526D9979000BFA093 /* Sources */,
 				138C9D0626D9979000BFA093 /* Frameworks */,
 				138C9D0726D9979000BFA093 /* Resources */,
+				F7CF8ACBBA3F08A3A11306B0 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -167,6 +211,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 138C9D3926D9979400BFA093 /* Build configuration list for PBXNativeTarget "djangoTests" */;
 			buildPhases = (
+				16CAE912822F6421500DCB6B /* [CP] Check Pods Manifest.lock */,
 				138C9D1E26D9979400BFA093 /* Sources */,
 				138C9D1F26D9979400BFA093 /* Frameworks */,
 				138C9D2026D9979400BFA093 /* Resources */,
@@ -185,9 +230,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 138C9D3C26D9979400BFA093 /* Build configuration list for PBXNativeTarget "djangoUITests" */;
 			buildPhases = (
+				CFC54E382FD37443E2991B0A /* [CP] Check Pods Manifest.lock */,
 				138C9D2926D9979400BFA093 /* Sources */,
 				138C9D2A26D9979400BFA093 /* Frameworks */,
 				138C9D2B26D9979400BFA093 /* Resources */,
+				7E952C599568BE30947ACDD3 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -268,6 +315,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		16CAE912822F6421500DCB6B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-djangoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1853C84BBC71AEB2099CD41D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-django-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7E952C599568BE30947ACDD3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-django-djangoUITests/Pods-django-djangoUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-django-djangoUITests/Pods-django-djangoUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-django-djangoUITests/Pods-django-djangoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CFC54E382FD37443E2991B0A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-django-djangoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F7CF8ACBBA3F08A3A11306B0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-django/Pods-django-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-django/Pods-django-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-django/Pods-django-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		138C9D0526D9979000BFA093 /* Sources */ = {
@@ -453,9 +603,11 @@
 		};
 		138C9D3726D9979400BFA093 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF833FBDD62B07DC4A68DE0F /* Pods-django.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = django/django.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = DN4778SBB3;
 				INFOPLIST_FILE = django/Info.plist;
@@ -464,7 +616,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 0.1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = nouvellie.django;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nouvellie.django;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -473,9 +625,11 @@
 		};
 		138C9D3826D9979400BFA093 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF0BB5A35895D308286EB436 /* Pods-django.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = django/django.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = DN4778SBB3;
 				INFOPLIST_FILE = django/Info.plist;
@@ -484,7 +638,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 0.1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = nouvellie.django;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nouvellie.django;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -493,6 +647,7 @@
 		};
 		138C9D3A26D9979400BFA093 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DCC600D5BBC9D8E38C99A375 /* Pods-djangoTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -515,6 +670,7 @@
 		};
 		138C9D3B26D9979400BFA093 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9DB7400927B5957E704BF2C1 /* Pods-djangoTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -537,6 +693,7 @@
 		};
 		138C9D3D26D9979400BFA093 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 150078466832A1F89F7B60CD /* Pods-django-djangoUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -557,6 +714,7 @@
 		};
 		138C9D3E26D9979400BFA093 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3BC866400611C79F5E88B4D8 /* Pods-django-djangoUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
