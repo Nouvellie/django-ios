@@ -15,7 +15,7 @@ class HomeViewController: UIViewController {
         self.optionsButton.setTitle("Options", for: .normal)
         self.signInOutButton.setTitle("Sign In", for: .normal)
         
-        if nouveUserDefaults?.bool(forKey: "nouveConnected") == false {
+        if nouveUserDefaults?.bool(forKey: "nouveConnected") == true {
             self.signInOutButton.setTitle("Sign Out", for: .normal)
         }
         else {

@@ -29,3 +29,8 @@ $ pod install
 
 Open project as workspace.
 Go to Pods/Podfile, and click library from Target Membership.
+
+## Useless Warnings from XPC service
+
+1 - From Xcode menu open: Product > Scheme > Edit Scheme.
+2 - On your Environment Variables set OS_ACTIVITY_MODE = disable.
