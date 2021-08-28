@@ -4,6 +4,7 @@ import UIKit
 
 class SignInViewController: UIViewController {
     
+    @IBOutlet weak var homeButton: UIButton!
     @IBOutlet weak var usernameTextField: UITextField!
     @IBOutlet weak var passwordTextField: UITextField!
     @IBOutlet weak var signInButton: UIButton!
@@ -14,20 +15,21 @@ class SignInViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-    
         self.updateView()
     }
     
     func updateView() {
-        self.signInButton.layer.cornerRadius = 5
-        
         // Inputs.
         self.usernameTextField.autocorrectionType = .no
         self.usernameTextField.autocapitalizationType = .none
         self.passwordTextField.autocorrectionType = .no
         self.passwordTextField.autocapitalizationType = .none
         self.passwordTextField.isSecureTextEntry = true
+        
+        // Other.
+        self.signInButton.layer.cornerRadius = 5
         self.forgotPasswordButton.titleLabel?.adjustsFontSizeToFitWidth = true
+        self.homeButton.setTitle("Home", for: .normal)
         
         // Hide keyboard.
         let tap = UITapGestureRecognizer(target: view, action: #selector(UIView.endEditing))
