@@ -16,5 +16,7 @@ let nouveLogs = [
     "SwiftyJSON 5.0.1 installed.",
     "SignIn button pressed ready.",
     "UserDefaults with suiteName groups ready.",
-    "Token saved on nouveToken UserDefaults",
+    "Token saved on nouveToken UserDefaults.",
+    "HomeView created.",
+    "Home redirect after signin.",
 ]

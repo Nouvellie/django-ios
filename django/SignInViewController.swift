@@ -65,6 +65,7 @@ class SignInViewController: UIViewController {
                 if response.response?.statusCode == 200 {
                     print("TODO Home redirect.")
                     nouveUserDefaults?.set(apiResult["token"].string, forKey: "nouveToken")
+                    self.signInHomeViewRedirect()
                 }
                 else if response.response?.statusCode == 401 {
                     self.signInErrorLabel.text = apiResult["error"].string
@@ -99,4 +100,13 @@ class SignInViewController: UIViewController {
             }
         }
     } // signInButtonPressed func close.
+    
+    func signInHomeViewRedirect() {
+        let storyBoard: UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
+        let homeVC = storyBoard.instantiateViewController(identifier: "HomeViewID")
+        homeVC.modalTransitionStyle = .crossDissolve
+        homeVC.modalPresentationStyle = .fullScreen
+        self.present(homeVC, animated: false, completion: nil)
+    } // signInHomeViewRedirect func close.
+    
 } // SignInViewController class close.

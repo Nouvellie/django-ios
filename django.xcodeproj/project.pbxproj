@@ -17,9 +17,10 @@
 		138C9D2726D9979400BFA093 /* djangoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 138C9D2626D9979400BFA093 /* djangoTests.swift */; };
 		138C9D3226D9979400BFA093 /* djangoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 138C9D3126D9979400BFA093 /* djangoUITests.swift */; };
 		138C9D4026D9F6E200BFA093 /* GlobalStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 138C9D3F26D9F6E200BFA093 /* GlobalStruct.swift */; };
-		138C9D4226D9F6FF00BFA093 /* Versioning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 138C9D4126D9F6FF00BFA093 /* Versioning.swift */; };
 		138C9D4926D9FAA900BFA093 /* VersionBackup in Resources */ = {isa = PBXBuildFile; fileRef = 138C9D4826D9FAA900BFA093 /* VersionBackup */; };
 		138C9D4F26DA003200BFA093 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 138C9D4E26DA003200BFA093 /* SignInViewController.swift */; };
+		138C9D5626DA435E00BFA093 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 138C9D5526DA435E00BFA093 /* HomeViewController.swift */; };
+		138C9D5826DA437100BFA093 /* Versioning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 138C9D5726DA437100BFA093 /* Versioning.swift */; };
 		25962869F1E4BA0B2D44EE2C /* Pods_django.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EFBCCF640BFC2AF3304DAB5 /* Pods_django.framework */; };
 		7BE9E15449C0C282C4C09F08 /* Pods_djangoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F56E8E00E0DCBC48A3B2B55 /* Pods_djangoTests.framework */; };
 		7E49BD18B824D4DCE9E9BE02 /* Pods_django_djangoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA91969C2F5BE80840CCE73F /* Pods_django_djangoUITests.framework */; };
@@ -60,10 +61,11 @@
 		138C9D3126D9979400BFA093 /* djangoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = djangoUITests.swift; sourceTree = "<group>"; };
 		138C9D3326D9979400BFA093 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		138C9D3F26D9F6E200BFA093 /* GlobalStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalStruct.swift; sourceTree = "<group>"; };
-		138C9D4126D9F6FF00BFA093 /* Versioning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Versioning.swift; sourceTree = "<group>"; };
 		138C9D4826D9FAA900BFA093 /* VersionBackup */ = {isa = PBXFileReference; lastKnownFileType = folder; path = VersionBackup; sourceTree = "<group>"; };
 		138C9D4E26DA003200BFA093 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 		138C9D5326DA3E6200BFA093 /* django.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = django.entitlements; sourceTree = "<group>"; };
+		138C9D5526DA435E00BFA093 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		138C9D5726DA437100BFA093 /* Versioning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Versioning.swift; sourceTree = "<group>"; };
 		150078466832A1F89F7B60CD /* Pods-django-djangoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-django-djangoUITests.debug.xcconfig"; path = "Target Support Files/Pods-django-djangoUITests/Pods-django-djangoUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		1EFBCCF640BFC2AF3304DAB5 /* Pods_django.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_django.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BC866400611C79F5E88B4D8 /* Pods-django-djangoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-django-djangoUITests.release.xcconfig"; path = "Target Support Files/Pods-django-djangoUITests/Pods-django-djangoUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -130,6 +132,7 @@
 				138C9D5326DA3E6200BFA093 /* django.entitlements */,
 				138C9D4826D9FAA900BFA093 /* VersionBackup */,
 				138C9D0C26D9979000BFA093 /* AppDelegate.swift */,
+				138C9D5726DA437100BFA093 /* Versioning.swift */,
 				138C9D0E26D9979000BFA093 /* SceneDelegate.swift */,
 				138C9D1026D9979000BFA093 /* ViewController.swift */,
 				138C9D1226D9979000BFA093 /* Main.storyboard */,
@@ -139,7 +142,7 @@
 				138C9D1526D9979000BFA093 /* django.xcdatamodeld */,
 				138C9D3F26D9F6E200BFA093 /* GlobalStruct.swift */,
 				138C9D4E26DA003200BFA093 /* SignInViewController.swift */,
-				138C9D4126D9F6FF00BFA093 /* Versioning.swift */,
+				138C9D5526DA435E00BFA093 /* HomeViewController.swift */,
 			);
 			path = django;
 			sourceTree = "<group>";
@@ -427,10 +430,11 @@
 				138C9D4F26DA003200BFA093 /* SignInViewController.swift in Sources */,
 				138C9D1126D9979000BFA093 /* ViewController.swift in Sources */,
 				138C9D0D26D9979000BFA093 /* AppDelegate.swift in Sources */,
-				138C9D4226D9F6FF00BFA093 /* Versioning.swift in Sources */,
+				138C9D5626DA435E00BFA093 /* HomeViewController.swift in Sources */,
 				138C9D1726D9979000BFA093 /* django.xcdatamodeld in Sources */,
 				138C9D4026D9F6E200BFA093 /* GlobalStruct.swift in Sources */,
 				138C9D0F26D9979000BFA093 /* SceneDelegate.swift in Sources */,
+				138C9D5826DA437100BFA093 /* Versioning.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
