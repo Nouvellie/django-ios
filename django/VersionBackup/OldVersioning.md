@@ -1,0 +1,16 @@
+let nouveLogs = [
+    "0.1.0",
+    "08-28-2021",
+    "App creation.",
+    "SignIn created.",
+    "Podfile created.",
+    "Alamofire 5.4.3 installed.",
+    "Workspace created.",
+    "SwiftyJSON 5.0.1 installed.",
+    "SignIn button pressed ready.",
+    "UserDefaults with suiteName groups ready.",
+    "Token saved on nouveToken UserDefaults.",
+    "HomeView created.",
+    "Home redirect after signin.",
+    "BG and BTN colors ready.",
+]
